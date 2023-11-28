@@ -1,0 +1,467 @@
+.baile-dos-sonhos2210-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.baile-dos-sonhos2210-navbar {
+  width: 100%;
+  display: flex;
+  z-index: 1000;
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  justify-content: space-between;
+}
+.baile-dos-sonhos2210-container1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.baile-dos-sonhos2210-branding {
+  width: 120px;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  object-fit: cover;
+  margin-right: var(--dl-space-space-unit);
+}
+.baile-dos-sonhos2210-burger-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.baile-dos-sonhos2210-hamburger {
+  cursor: pointer;
+  display: flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-left: var(--dl-space-space-fourunits);
+  padding-right: var(--dl-space-space-fourunits);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  justify-content: space-between;
+  background-color: #f50000;
+}
+.baile-dos-sonhos2210-hamburger:hover {
+  opacity: .5;
+}
+.baile-dos-sonhos2210-icon {
+  width: 60px;
+  object-fit: cover;
+}
+.baile-dos-sonhos2210-mobile-menu {
+  top: 0px;
+  left: 0px;
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: 32px;
+  z-index: 100;
+  position: fixed;
+  transform: translateX(100%);
+  transition: 0.5s;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--dl-color-gray-black);
+}
+.baile-dos-sonhos2210-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.baile-dos-sonhos2210-container2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.baile-dos-sonhos2210-image {
+  height: 2rem;
+}
+.baile-dos-sonhos2210-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.baile-dos-sonhos2210-icon1 {
+  fill: var(--dl-color-gray-white);
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.baile-dos-sonhos2210-nav1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.baile-dos-sonhos2210-text {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.baile-dos-sonhos2210-text1 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.baile-dos-sonhos2210-text2 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.baile-dos-sonhos2210-text3 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.baile-dos-sonhos2210-text4 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.baile-dos-sonhos2210-container3 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: row;
+}
+.baile-dos-sonhos2210-login {
+  margin-right: var(--dl-space-space-twounits);
+}
+.baile-dos-sonhos2210-icon-group {
+  fill: var(--dl-color-gray-white);
+  display: flex;
+}
+.baile-dos-sonhos2210-icon3 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.baile-dos-sonhos2210-icon5 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.baile-dos-sonhos2210-icon7 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.baile-dos-sonhos2210-gallery {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+}
+.baile-dos-sonhos2210-text5 {
+  font-size: 3rem;
+  text-align: center;
+}
+.baile-dos-sonhos2210-text6 {
+  color: var(--dl-color-gray-700);
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  padding-left: var(--dl-space-space-threeunits);
+  margin-bottom: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-threeunits);
+}
+.baile-dos-sonhos2210-container4 {
+  width: 100%;
+  display: grid;
+  grid-gap: var(--dl-space-space-unit);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.baile-dos-sonhos2210-footer {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: flex-start;
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+}
+.baile-dos-sonhos2210-content {
+  gap: var(--dl-space-space-fiveunits);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-fiveunits);
+  border-color: #313133;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fiveunits);
+  border-top-width: 1px;
+}
+.baile-dos-sonhos2210-main {
+  gap: 240px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.baile-dos-sonhos2210-branding1 {
+  gap: var(--dl-space-space-twounits);
+  width: 400px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.baile-dos-sonhos2210-image1 {
+  width: 120px;
+  object-fit: cover;
+}
+.baile-dos-sonhos2210-text7 {
+  color: #7C7C80;
+  line-height: 24px;
+}
+.baile-dos-sonhos2210-links {
+  gap: 120px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.baile-dos-sonhos2210-column {
+  gap: var(--dl-space-space-threeunits);
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.baile-dos-sonhos2210-header {
+  font-size: 24px;
+  font-style: italic;
+  font-family: "Playfair Display";
+  font-weight: 500;
+}
+.baile-dos-sonhos2210-list {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.baile-dos-sonhos2210-navlink {
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+  line-height: 32px;
+  text-decoration: none;
+}
+.baile-dos-sonhos2210-navlink:hover {
+  opacity: .5;
+}
+.baile-dos-sonhos2210-navlink1 {
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+  line-height: 32px;
+  text-decoration: none;
+}
+.baile-dos-sonhos2210-navlink1:hover {
+  opacity: .5;
+}
+.baile-dos-sonhos2210-navlink2 {
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+  line-height: 32px;
+  text-decoration: none;
+}
+.baile-dos-sonhos2210-navlink2:hover {
+  opacity: .5;
+}
+.baile-dos-sonhos2210-column1 {
+  gap: var(--dl-space-space-threeunits);
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.baile-dos-sonhos2210-header1 {
+  font-size: 24px;
+  font-style: italic;
+  font-family: Playfair Display;
+  font-weight: 500;
+}
+.baile-dos-sonhos2210-list1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.baile-dos-sonhos2210-navlink3 {
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+  line-height: 32px;
+  text-decoration: none;
+}
+.baile-dos-sonhos2210-navlink3:hover {
+  opacity: .5;
+}
+.baile-dos-sonhos2210-navlink4 {
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+  line-height: 32px;
+  text-decoration: none;
+}
+.baile-dos-sonhos2210-navlink4:hover {
+  opacity: .5;
+}
+.baile-dos-sonhos2210-bottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.baile-dos-sonhos2210-text8 {
+  color: #7C7C80;
+  font-size: 14px;
+  line-height: 21px;
+}
+.baile-dos-sonhos2210-button {
+  display: flex;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-fiveunits);
+  border-radius: 0px;
+  padding-right: var(--dl-space-space-fiveunits);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: #f50000;
+}
+.baile-dos-sonhos2210-image2 {
+  width: 21px;
+  object-fit: cover;
+}
+.baile-dos-sonhos2210-container6 {
+  display: contents;
+}
+@media(max-width: 1200px) {
+  .baile-dos-sonhos2210-container {
+    background-color: #000000;
+  }
+  .baile-dos-sonhos2210-branding {
+    width: 90px;
+    height: 90px;
+    margin-top: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+  .baile-dos-sonhos2210-text5 {
+    color: #ffffff;
+    font-size: 3rem;
+  }
+  .baile-dos-sonhos2210-text6 {
+    color: var(--dl-color-gray-700);
+  }
+  .baile-dos-sonhos2210-text7 {
+    color: rgb(124, 124, 128);
+    line-height: 24px;
+  }
+  .baile-dos-sonhos2210-text8 {
+    color: rgb(124, 124, 128);
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+@media(max-width: 991px) {
+  .baile-dos-sonhos2210-container {
+    background-color: #0e0808;
+  }
+  .baile-dos-sonhos2210-branding {
+    width: 65px;
+    height: 65px;
+  }
+  .baile-dos-sonhos2210-text6 {
+    text-align: center;
+  }
+  .baile-dos-sonhos2210-container4 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .baile-dos-sonhos2210-content {
+    border-top-width: 0px;
+  }
+  .baile-dos-sonhos2210-main {
+    gap: var(--dl-space-space-threeunits);
+    flex-direction: column;
+  }
+  .baile-dos-sonhos2210-branding1 {
+    width: 100%;
+  }
+}
+@media(max-width: 767px) {
+  .baile-dos-sonhos2210-branding {
+    margin-top: auto;
+    margin-right: auto;
+  }
+  .baile-dos-sonhos2210-burger-menu {
+    display: flex;
+  }
+  .baile-dos-sonhos2210-gallery {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .baile-dos-sonhos2210-text6 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .baile-dos-sonhos2210-container4 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .baile-dos-sonhos2210-footer {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .baile-dos-sonhos2210-links {
+    gap: var(--dl-space-space-fiveunits);
+    flex-direction: row;
+  }
+}
+@media(max-width: 479px) {
+  .baile-dos-sonhos2210-navbar {
+    align-items: center;
+    justify-content: space-between;
+  }
+  .baile-dos-sonhos2210-container1 {
+    align-self: center;
+    margin-right: var(--dl-space-space-fourunits);
+    justify-content: space-between;
+  }
+  .baile-dos-sonhos2210-branding {
+    width: 70px;
+    height: 73px;
+    margin-top: var(--dl-space-space-halfunit);
+    margin-left: var(--dl-space-space-halfunit);
+    padding-top: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-halfunit);
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .baile-dos-sonhos2210-hamburger {
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .baile-dos-sonhos2210-icon {
+    width: 30px;
+  }
+  .baile-dos-sonhos2210-mobile-menu {
+    padding: 16px;
+  }
+  .baile-dos-sonhos2210-gallery {
+    padding: var(--dl-space-space-unit);
+  }
+  .baile-dos-sonhos2210-container4 {
+    grid-template-columns: 1fr;
+  }
+  .baile-dos-sonhos2210-links {
+    gap: var(--dl-space-space-threeunits);
+    flex-direction: column;
+  }
+  .baile-dos-sonhos2210-bottom {
+    gap: var(--dl-space-space-twounits);
+    flex-direction: column;
+    justify-content: center;
+  }
+  .baile-dos-sonhos2210-button {
+    justify-content: center;
+  }
+}

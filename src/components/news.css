@@ -36,3 +36,16 @@
     display: none;
   }
 }
+@media(max-width: 767px) {
+  .news-current {
+    background-color: #f50000;
+  }
+}
+@media(max-width: 479px) {
+  .news-current {
+    background-color: #f50000;
+  }
+  .news-next {
+    display: none;
+  }
+}
